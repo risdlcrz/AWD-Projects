@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url("https://i.pinimg.com/originals/80/40/b5/8040b5ff91ce8c3f153beebab39d584f.gif");
+}
+
+#sun {
+    animation: rotate-sun 8s linear infinite;
+    animation-play-state: paused;
+}
+
+#sun.rotate-sun {
+    animation-play-state: running;
+}
+
+#earth {
+    animation: rotate-earth 6s linear infinite;
+    animation-play-state: paused;
+}
+
+#earth.rotate-earth {
+    animation-play-state: running;
+}
+
+#moon {
+    animation: rotate-moon 4s linear infinite;
+    animation-play-state: paused;
+}
+
+#moon.rotate-moon {
+    animation-play-state: running;
+}
+
+@keyframes rotate-sun {
+    0% {
+        transform: rotate(0deg) translate(200px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translate(200px) rotate(-360deg);
+    }
+}
+
+@keyframes rotate-earth {
+    0% {
+        transform: rotate(0deg) translate(300px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translate(300px) rotate(-360deg);
+    }
+}
+
+@keyframes rotate-moon {
+    0% {
+        transform: rotate(0deg) translate(400px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translate(400px) rotate(-360deg);
+    }
+}
+
+.comet-shower {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    visibility: hidden; /* Hide the comets initially */
+}
+
+.comet {
+    position: absolute;
+    background: white;
+    width: 0.7vh;
+    height: 0.7vh;
+    bottom: 100%;
+}
+
+.comet-fall {
+    animation: comet-fall 2s linear infinite;
+}
+
+@keyframes comet-fall {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    100% {
+        transform: translateX(50vw) translateY(100vh); /* Adjust this line */
+    }
+}
+
+.comet:nth-child(odd) {
+    animation-duration: 1s;
+}
+
+.comet:nth-child(even) {
+    animation-duration: 0.25s;
+}
