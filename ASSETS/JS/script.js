@@ -8,7 +8,7 @@ fetch('./projects.json')
             item.dataset.href = project.href;
 
             const defaultImg = document.createElement('img');
-            defaultImg.src = './ASSETS/screen.png';
+            defaultImg.src = './ASSETS/IMAGES/screen.png';
             defaultImg.alt = project.name;
             item.appendChild(defaultImg);
 
