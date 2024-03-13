@@ -2,43 +2,43 @@
     {
         "title": "Jumping Letters",
         "description": "Develop a fun and dynamic effect with letters that jump, bringing a playful touch to your website.",
-        "thumbnail": "./ASSETS/jumplet.png",
+        "thumbnail": "./ASSETS/IMAGES/jumplet.png",
         "href": "./JUMP"
     },
     {
         "title": "Bell Notification",
         "description": "Craft a notification system using bells, enhancing user engagement and interaction.",
-        "thumbnail": "./ASSETS/notifbelll.png",
+        "thumbnail": "./ASSETS/IMAGES/notifbelll.png",
         "href": "./NOTIF"
     },
     {
         "title": "Resume",
         "description": "Sample resume. Stylized and responsive.",
-        "thumbnail": "./ASSETS/resume.png",
+        "thumbnail": "./ASSETS/IMAGES/resume.png",
         "href": "./RESUME"
     },
     {
         "title": "Calculator",
         "description": "Calculator Project.",
-        "thumbnail": "./ASSETS/calcu.png",
+        "thumbnail": "./ASSETS/IMAGES/calcu.png",
         "href": "./CALCU"
     },
     {
         "title": "Sample Website",
         "description": "Sample website of a fake photography company.",
-        "thumbnail": "./ASSETS/web.png",
+        "thumbnail": "./ASSETS/IMAGES/web.png",
         "href": "./WEB"
     },
     {
         "title": "Card Flipping",
         "description": "Card flipping game. Find the ACE!",
-        "thumbnail": "./ASSETS/card.png",
+        "thumbnail": "./ASSETS/IMAGES/card.png",
         "href": "./CARD"
     },
     {
         "title": "Sample Animation",
         "description": "Sample animation for a character selection portion of a game.",
-        "thumbnail": "./ASSETS/game.png",
+        "thumbnail": "./ASSETS/IMAGES/game.png",
         "href": "./ANIMATION"
     }
 ]
