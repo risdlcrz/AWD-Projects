@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./ASSETS/CSS/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Permanent+Marker&family=Press+Start+2P&family=Protest+Revolution&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="navbar-brand"><i class="fas fa-home fa-2x"></i></a>
+        <a href="./txt.html" class="navbar-brand">
+            <img src="./ASSETS/MISC/photos/logotxt.png" alt="txt" class="logo">
+        </a> 
+        <a href="./skz.html" class="navbar-brand">
+            <img src="./ASSETS/MISC/photos/logoskz.png" alt="txt" class="logo">
+        </a>
+        <a href="./itzy.html" class="navbar-brand">
+            <img src="./ASSETS/MISC/photos/logoitzy.png" alt="txt" class="logo">
+        </a> 
+    </nav>
+        <div id="carousel-container">
+            <button id="prev" class="btn btn-primary">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div id="carousel-wrapper">
+                <div id="carousel">
+                    <div class="character" data-name="chan">
+                        <img src="./ASSETS/MISC/photos/chan.jpg" alt="chan">                       
+                    </div>
+
+                    <div class="character" data-name="lee know">
+                        <img src="./ASSETS/MISC/photos/lk.jpg" alt="lk">
+                    </div>
+
+                    <div class="character" data-name="changbin">
+                        <img src="./ASSETS/MISC/photos/cb.jpg" alt="cb">                    
+                    </div>
+
+                    <div class="character" data-name="hyunjin">
+                        <img src="./ASSETS/MISC/photos/hj.jpg" alt="hj">
+                    </div>
+
+                    <div class="character" data-name="han">
+                        <img src="./ASSETS/MISC/photos/han.jpg" alt="han">
+                    </div>
+
+                    <div class="character" data-name="felix">
+                        <img src="./ASSETS/MISC/photos/lix.jpg" alt="lix">                          
+                    </div>
+
+                    <div class="character" data-name="seungmin">
+                        <img src="./ASSETS/MISC/photos/sm.jpg" alt="sm">                          
+                    </div>
+
+                    <div class="character" data-name="i.n">
+                        <img src="./ASSETS/MISC/photos/in.jpg" alt="in">
+                    </div>
+
+                </div>
+            </div>
+            <button id="next" class="btn btn-primary">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        <div id="active-character-name"></div>
+        <video id="video-background" autoplay loop muted>
+            <source src="./ASSETS/MISC/vids/la4.mp4" type="video/mp4">
+        </video>
+        
+<audio id="audio-background" autoplay loop>
+    <source src="./ASSETS/MISC/music/la4.mp3" type="audio/mpeg">
+</audio>
+    <script src="./ASSETS/JS/script2.js"></script>
+</body>
+</html>

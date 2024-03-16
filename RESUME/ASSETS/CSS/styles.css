@@ -1,0 +1,105 @@
+body {
+    background-color: lightblue, #390b4c;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.center {
+    margin: auto;
+    width: 70%;
+    height: 60%;
+    padding: 10px;
+    background-color:aliceblue;
+    font-family: 'Sora', sans-serif;;
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px rgba(7, 7, 54, 0.5);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+
+.name-and-subtitle {
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 3.5em;
+    font-family: 'Cinzel Decorative', serif;
+    text-align: left;
+}
+
+.subtitle {
+    font-size: 0.85em;
+    font-family: 'Sora', sans-serif;
+    font-style: italic;
+    text-align: left;
+    margin-top: 1%;
+}
+
+.profile-pic {
+    flex: 30%;
+    border-radius: 50%;
+    max-width: 27vh;
+    margin-right: 1%;
+    max-height: 27vh;
+    margin-top: -4.2%;
+}
+
+.body {
+    display: flex;
+    font-size: 0.7em;
+}
+
+.left {
+    flex: 40%;
+    padding: 5%
+}
+
+.right {
+    flex: 60%;
+    padding: 5%
+}
+
+button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5%;
+    font-family: 'Sora', sans-serif; 
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.2em;
+    &:hover {
+        background-color: #2ab871;
+        color: #fff;
+    }
+}
+
+.custom-hr {
+    border: none;
+    height: 2px;
+    background-color: #333; 
+    margin: 20px 0; 
+}
+
+.button:hover::after{
+    background-color: #58047c;
+}
+
+.button:hover::after{
+    background-color: #a3b3fb;
+}
+
+body, .center, .custom-hr, #colorButton {
+    transition: all 0.07s ease; 
+}
